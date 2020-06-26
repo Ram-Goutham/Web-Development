@@ -1,5 +1,10 @@
-#submi{
+#submit{
     float: right;
+    background-color: rgb(255, 200, 167);
+}
+
+#submit:hover{
+    background-color: rgba(243,17, 156, 0.5);
 }
 
 #header-section{
@@ -7,5 +12,44 @@
 }
 
 h1::before{
+    content: ' ';
+    background-image: url(image1.jpg);
+    height: 10px;
+    width: 10px;
+}
+
+fieldset{
+background-color: grey ;
+}
+
+legend{
+    background-color: white;
+    margin: 30px ;
+    font-size: 1.5em;
+    padding: 0px 20px 10px 20px;
+    border-radius: 5px;
+}
+
+form{
+    text-align: right;
     
+}
+
+label{
+    position: absolute;
+    left: 40%;
+}
+
+input{
+    position: absolute;
+    left: 60%;
+}
+
+img{
+    height: 30px;
+    width: 30px;
+}
+
+.a{
+    display: inline;
 }
