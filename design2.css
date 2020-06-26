@@ -1,0 +1,78 @@
+.container{
+    font-family:  'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', sans-serif;
+    background-color: whitesmoke;
+    
+}
+#header-section{
+    margin: 10px 0px 10px 42%;
+}
+
+#header-section img{
+    width: 25px;
+    height: 25px;
+    vertical-align: sub;
+    border-radius: 14px;
+}
+#header-section h1{
+    display: inline-block;
+}
+#login-box{
+    
+    width: 60;
+    margin: 10px 30% 10px 30%;
+    position: relative;
+}
+#login-box fieldset{
+    background-color: lightgrey;
+    border: none;
+    width: 60% auto;
+    height: 200px;    
+    line-height: 2.2em;
+    border-radius: 10px;
+
+}
+#login-box fieldset legend{
+    padding:0px 10px 10px 30px;
+    background-color: whitesmoke;
+    font-weight: bold;
+    color: aqua;
+    border-radius: 5px;
+    margin-left: 20px;
+    width: 100px;
+    font-size: 1.4em;
+}
+
+#login-box fieldset #left-box{
+    width:180px ;
+    position: absolute;
+    text-align: right;
+}
+
+#login-box fieldset #right-box{
+    float: right;
+    right:20px ;
+    position: absolute;
+}
+#login-box fieldset #right-box input{
+    padding: 5px;
+    border-color: grey;
+    border-style: groove;
+    border-radius: 5px;
+    width: 300px;
+}
+#submit{
+    float: right;
+    position: absolute;
+    right: 20px ;
+    background-color: lightgreen;
+    padding: 5px 15px 5px 15px;
+    border-color: grey ;
+    border-radius: 5px;
+    bottom: 15px;
+}
+#submit:hover{
+    background-color: white;
+}
+#login-box fieldset #right-box input #remember{
+    float:left;
+}
