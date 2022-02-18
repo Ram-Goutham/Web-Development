@@ -20,6 +20,7 @@ h1::before{
 
 fieldset{
 background-color: grey ;
+    width:70%;
 }
 
 legend{
